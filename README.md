@@ -185,7 +185,8 @@ DB_PASSWORD=your_password_here
 ```
 
 ### 5. Create the database
-
+login to PostgreSQL
+```psql -U postgres```
 ```sql
 CREATE DATABASE banking_system;
 ```
