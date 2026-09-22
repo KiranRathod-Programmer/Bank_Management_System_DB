@@ -1,4 +1,4 @@
--- Phase 3: Loan Management
+-- Phase 3: Loan Management 
 -- Run on existing database: psql -U postgres -d banking_system -f migrations/phase3.sql
 
 CREATE TYPE loan_type AS ENUM ('PERSONAL', 'HOME', 'AUTO');
