@@ -1,4 +1,4 @@
-from decimal import Decimal
+from decimal import Decimal 
 from typing import List, Optional
 
 from models.loan import Loan, get_loan_product
