@@ -1,5 +1,5 @@
 -- Phase 1 Banking System Schema
-
+  
 CREATE TYPE account_type AS ENUM ('SAVINGS', 'CHECKING');
 CREATE TYPE account_status AS ENUM ('ACTIVE', 'CLOSED', 'FROZEN');
 CREATE TYPE transaction_type AS ENUM ('DEPOSIT', 'WITHDRAWAL');
