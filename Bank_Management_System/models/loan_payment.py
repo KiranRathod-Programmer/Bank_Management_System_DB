@@ -21,3 +21,4 @@ class LoanPayment:
             outstanding_after=Decimal(str(row[3])),
             created_at=row[4],
         )
+   
